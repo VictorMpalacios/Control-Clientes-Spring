@@ -1,7 +1,6 @@
 package co.com.vp.servicio;
 
 import java.util.ArrayList;
-import lombok.extern.slf4j.Slf4j;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
@@ -18,7 +17,6 @@ import co.com.vp.domain.Rol;
 import co.com.vp.domain.Usuario;
 
 @Service("userDetailsService")
-@Slf4j
 public class UsuarioService implements UserDetailsService{
 
     @Autowired
